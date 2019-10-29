@@ -1,0 +1,1 @@
+右键和f12被禁了，我们可以通过chrome自带的view-source功能读取源码，源码中有个可以js文件叫hello_world.js,打开js里面是一个base64编码串，base64解密得flag。
