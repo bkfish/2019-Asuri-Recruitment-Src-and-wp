@@ -1,0 +1,19 @@
+version: '2'
+services:
+  # 基本环境
+  web:  # 容器名字
+    # build 该置顶目录下的dockerfile
+    build: ./   # image指定build Dockerfile生成镜像的名称
+    
+    ports:
+        - 9000:80
+    tty: true
+    networks:
+      - net
+
+# 网络配置，可命名为题目名称（英文）
+networks:
+    # 配置docker network
+    net :
+      external: 
+        name: CTFD
