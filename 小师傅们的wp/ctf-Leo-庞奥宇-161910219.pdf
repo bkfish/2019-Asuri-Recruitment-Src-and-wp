@@ -1,0 +1,7 @@
+1.misc-签到
+ 用winhex打开图片，发现除图片本身格式外还有一段多余，拿出来    ZmxhZ3sxX3dhbnRfamlhbXVzX3Awd2VyfQ==，发现用base64加密，解密即发现flag flag{1_want_jiamus_p0wer}
+
+2.http://desperadoccy.club:39011/
+打开源码，能在源码中找到一串诡异字符串，推测为base64加密QXN1cml7dmlld19zb3VyY2Unc19wb3dlcn0。解密即得到flagAsuri{view_source's_power}
+3.medium_web_justburp
+在网站robots.txt中找到密码的文件name-pass，用burp intruder 暴力出密码
