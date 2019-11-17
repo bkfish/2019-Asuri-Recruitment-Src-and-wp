@@ -1,3 +1,3 @@
 <?php
-echo 'flag{abfognedlfjsneco}'
+echo 'Asuri{Burp_1s_Gre@t}'
 ?>
